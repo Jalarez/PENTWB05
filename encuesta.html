@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The WingSpot</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
+  </head>
+
+  <body>
+		<header>
+  		<hgroup>
+    		<h1>The WingSpot</h1>
+  		</hgroup>
+
+  	  <nav>
+    		<ul>
+      	 	<li><a href="index.html">Inicio</a></li>
+          <li><a href="encuesta.html">Encuesta</a></li>
+    		</ul>
+  		</nav>
+		</header>
+
+		<section>
+			<h2>Encuesta</h2>
+
+			<form method="POST" action="encuesta.html" >
+		
+			<p><label>Nombre del participante: <input type="text" id="nombre" name="nombre" maxlength="20" placeholder="Nombre" required></label></p>
+
+			<p><label>Edad: <input type="number" id="edad" name="edad" maxlength="2" placeholder="Edad" required></label></p>
+
+			<fieldset>
+  			<legend>Cuanto te gustan las alitas con salsa búfalo</legend>
+  			<p><label> <input type="radio" name="gusto" value="3" checked>Mucho</label></p>
+  			<p><label> <input type="radio" name="gusto" value="2">Poco</label></p>
+  			<p><label> <input type="radio" name="gusto" value="1">Nada</label></p>
+			</fieldset>
+
+				<p><input type="reset" value="Borrar">
+				<input type="submit" value="Enviar"></p>
+			
+			</form>
+		</section>
+
+		<footer>
+			<small>The WingSpot el mejor lugar para tus alitas</small>
+		</footer>
+	</body>
+
+</html>
